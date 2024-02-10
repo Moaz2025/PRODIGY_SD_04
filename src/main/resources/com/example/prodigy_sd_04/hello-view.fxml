@@ -7,10 +7,11 @@
 <?import javafx.scene.layout.GridPane?>
 <?import javafx.scene.layout.RowConstraints?>
 <?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.prodigy_sd_04.HelloController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" stylesheets="@styles.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.prodigy_sd_04.HelloController">
    <children>
-      <GridPane layoutX="20.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="400.0">
+      <GridPane layoutX="20.0" layoutY="20.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="360.0" prefWidth="360.0">
         <columnConstraints>
             <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
           <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
@@ -34,92 +35,345 @@
           <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
         </rowConstraints>
          <children>
-            <TextField fx:id="cell00" prefHeight="55.0" prefWidth="56.0" />
-            <TextField fx:id="cell01" layoutX="10.0" layoutY="10.0" prefHeight="55.0" prefWidth="56.0" GridPane.columnIndex="1" />
-            <TextField fx:id="cell02" layoutX="54.0" layoutY="10.0" prefHeight="55.0" prefWidth="56.0" GridPane.columnIndex="2" />
-            <TextField fx:id="cell03" layoutX="98.0" layoutY="10.0" prefHeight="55.0" prefWidth="56.0" GridPane.columnIndex="3" />
-            <TextField fx:id="cell04" layoutX="142.0" layoutY="10.0" prefHeight="55.0" prefWidth="56.0" GridPane.columnIndex="4" />
-            <TextField fx:id="cell05" layoutX="10.0" layoutY="10.0" prefHeight="55.0" prefWidth="56.0" GridPane.columnIndex="5" />
-            <TextField fx:id="cell06" layoutX="230.0" layoutY="10.0" prefHeight="55.0" prefWidth="56.0" GridPane.columnIndex="6" />
-            <TextField fx:id="cell07" layoutX="275.0" layoutY="10.0" prefHeight="55.0" prefWidth="56.0" GridPane.columnIndex="7" />
-            <TextField fx:id="cell08" layoutX="320.0" layoutY="10.0" prefHeight="55.0" prefWidth="56.0" GridPane.columnIndex="8" />
-            <TextField fx:id="cell10" layoutX="10.0" layoutY="10.0" prefHeight="55.0" prefWidth="56.0" GridPane.rowIndex="1" />
-            <TextField fx:id="cell11" layoutX="10.0" layoutY="55.0" prefHeight="55.0" prefWidth="56.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
-            <TextField fx:id="cell12" layoutX="54.0" layoutY="55.0" prefHeight="55.0" prefWidth="56.0" GridPane.columnIndex="2" GridPane.rowIndex="1" />
-            <TextField fx:id="cell13" layoutX="10.0" layoutY="10.0" prefHeight="55.0" prefWidth="56.0" GridPane.columnIndex="3" GridPane.rowIndex="1" />
-            <TextField fx:id="cell14" layoutX="98.0" layoutY="55.0" prefHeight="55.0" prefWidth="56.0" GridPane.columnIndex="4" GridPane.rowIndex="1" />
-            <TextField fx:id="cell15" layoutX="10.0" layoutY="10.0" prefHeight="55.0" prefWidth="56.0" GridPane.columnIndex="5" GridPane.rowIndex="1" />
-            <TextField fx:id="cell16" layoutX="10.0" layoutY="10.0" prefHeight="55.0" prefWidth="56.0" GridPane.columnIndex="6" GridPane.rowIndex="1" />
-            <TextField fx:id="cell17" layoutX="10.0" layoutY="10.0" prefHeight="55.0" prefWidth="56.0" GridPane.columnIndex="7" GridPane.rowIndex="1" />
-            <TextField fx:id="cell18" layoutX="10.0" layoutY="10.0" prefHeight="55.0" prefWidth="56.0" GridPane.columnIndex="8" GridPane.rowIndex="1" />
-            <TextField fx:id="cell20" layoutX="365.0" layoutY="55.0" prefHeight="55.0" prefWidth="56.0" GridPane.rowIndex="2" />
-            <TextField fx:id="cell21" layoutX="230.0" layoutY="55.0" prefHeight="55.0" prefWidth="56.0" GridPane.columnIndex="1" GridPane.rowIndex="2" />
-            <TextField fx:id="cell22" layoutX="275.0" layoutY="55.0" prefHeight="55.0" prefWidth="56.0" GridPane.columnIndex="2" GridPane.rowIndex="2" />
-            <TextField fx:id="cell23" layoutX="320.0" layoutY="55.0" prefHeight="55.0" prefWidth="56.0" GridPane.columnIndex="3" GridPane.rowIndex="2" />
-            <TextField fx:id="cell24" layoutX="142.0" layoutY="55.0" prefHeight="55.0" prefWidth="56.0" GridPane.columnIndex="4" GridPane.rowIndex="2" />
-            <TextField fx:id="cell25" layoutX="186.0" layoutY="55.0" prefHeight="55.0" prefWidth="56.0" GridPane.columnIndex="5" GridPane.rowIndex="2" />
-            <TextField fx:id="cell26" layoutX="98.0" layoutY="55.0" prefHeight="55.0" prefWidth="56.0" GridPane.columnIndex="6" GridPane.rowIndex="2" />
-            <TextField fx:id="cell27" layoutX="54.0" layoutY="55.0" prefHeight="55.0" prefWidth="56.0" GridPane.columnIndex="7" GridPane.rowIndex="2" />
-            <TextField fx:id="cell28" layoutX="10.0" layoutY="55.0" prefHeight="55.0" prefWidth="56.0" GridPane.columnIndex="8" GridPane.rowIndex="2" />
-            <TextField fx:id="cell30" layoutX="10.0" layoutY="100.0" prefHeight="55.0" prefWidth="56.0" GridPane.rowIndex="3" />
-            <TextField fx:id="cell31" layoutX="54.0" layoutY="100.0" prefHeight="55.0" prefWidth="56.0" GridPane.columnIndex="1" GridPane.rowIndex="3" />
-            <TextField fx:id="cell32" layoutX="98.0" layoutY="100.0" prefHeight="55.0" prefWidth="56.0" GridPane.columnIndex="2" GridPane.rowIndex="3" />
-            <TextField fx:id="cell33" layoutX="142.0" layoutY="100.0" prefHeight="55.0" prefWidth="56.0" GridPane.columnIndex="3" GridPane.rowIndex="3" />
-            <TextField fx:id="cell34" layoutX="186.0" layoutY="100.0" prefHeight="55.0" prefWidth="56.0" GridPane.columnIndex="4" GridPane.rowIndex="3" />
-            <TextField fx:id="cell35" layoutX="230.0" layoutY="100.0" prefHeight="55.0" prefWidth="56.0" GridPane.columnIndex="5" GridPane.rowIndex="3" />
-            <TextField fx:id="cell36" layoutX="275.0" layoutY="100.0" prefHeight="55.0" prefWidth="56.0" GridPane.columnIndex="6" GridPane.rowIndex="3" />
-            <TextField fx:id="cell37" layoutX="320.0" layoutY="100.0" prefHeight="55.0" prefWidth="56.0" GridPane.columnIndex="7" GridPane.rowIndex="3" />
-            <TextField fx:id="cell38" layoutX="365.0" layoutY="100.0" prefHeight="55.0" prefWidth="56.0" GridPane.columnIndex="8" GridPane.rowIndex="3" />
-            <TextField fx:id="cell40" layoutX="10.0" layoutY="145.0" prefHeight="55.0" prefWidth="56.0" GridPane.rowIndex="4" />
-            <TextField fx:id="cell41" layoutX="54.0" layoutY="145.0" prefHeight="55.0" prefWidth="56.0" GridPane.columnIndex="1" GridPane.rowIndex="4" />
-            <TextField fx:id="cell42" layoutX="98.0" layoutY="145.0" prefHeight="55.0" prefWidth="56.0" GridPane.columnIndex="2" GridPane.rowIndex="4" />
-            <TextField fx:id="cell43" layoutX="142.0" layoutY="145.0" prefHeight="55.0" prefWidth="56.0" GridPane.columnIndex="3" GridPane.rowIndex="4" />
-            <TextField fx:id="cell44" layoutX="186.0" layoutY="145.0" prefHeight="55.0" prefWidth="56.0" GridPane.columnIndex="4" GridPane.rowIndex="4" />
-            <TextField fx:id="cell45" layoutX="230.0" layoutY="145.0" prefHeight="55.0" prefWidth="56.0" GridPane.columnIndex="5" GridPane.rowIndex="4" />
-            <TextField fx:id="cell46" layoutX="275.0" layoutY="145.0" prefHeight="55.0" prefWidth="56.0" GridPane.columnIndex="6" GridPane.rowIndex="4" />
-            <TextField fx:id="cell47" layoutX="320.0" layoutY="145.0" prefHeight="55.0" prefWidth="56.0" GridPane.columnIndex="7" GridPane.rowIndex="4" />
-            <TextField fx:id="cell48" layoutX="365.0" layoutY="145.0" prefHeight="55.0" prefWidth="56.0" GridPane.columnIndex="8" GridPane.rowIndex="4" />
-            <TextField fx:id="cell50" layoutX="10.0" layoutY="190.0" prefHeight="55.0" prefWidth="56.0" GridPane.rowIndex="5" />
-            <TextField fx:id="cell51" layoutX="54.0" layoutY="190.0" prefHeight="55.0" prefWidth="56.0" GridPane.columnIndex="1" GridPane.rowIndex="5" />
-            <TextField fx:id="cell52" layoutX="98.0" layoutY="190.0" prefHeight="55.0" prefWidth="56.0" GridPane.columnIndex="2" GridPane.rowIndex="5" />
-            <TextField fx:id="cell53" layoutX="142.0" layoutY="190.0" prefHeight="55.0" prefWidth="56.0" GridPane.columnIndex="3" GridPane.rowIndex="5" />
-            <TextField fx:id="cell54" layoutX="186.0" layoutY="190.0" prefHeight="55.0" prefWidth="56.0" GridPane.columnIndex="4" GridPane.rowIndex="5" />
-            <TextField fx:id="cell55" layoutX="230.0" layoutY="190.0" prefHeight="55.0" prefWidth="56.0" GridPane.columnIndex="5" GridPane.rowIndex="5" />
-            <TextField fx:id="cell56" layoutX="275.0" layoutY="190.0" prefHeight="55.0" prefWidth="56.0" GridPane.columnIndex="6" GridPane.rowIndex="5" />
-            <TextField fx:id="cell57" layoutX="320.0" layoutY="190.0" prefHeight="55.0" prefWidth="56.0" GridPane.columnIndex="7" GridPane.rowIndex="5" />
-            <TextField fx:id="cell58" layoutX="365.0" layoutY="190.0" prefHeight="55.0" prefWidth="56.0" GridPane.columnIndex="8" GridPane.rowIndex="5" />
-            <TextField fx:id="cell60" layoutX="10.0" layoutY="234.0" prefHeight="55.0" prefWidth="56.0" GridPane.rowIndex="6" />
-            <TextField fx:id="cell61" layoutX="54.0" layoutY="234.0" prefHeight="55.0" prefWidth="56.0" GridPane.columnIndex="1" GridPane.rowIndex="6" />
-            <TextField fx:id="cell62" layoutX="98.0" layoutY="234.0" prefHeight="55.0" prefWidth="56.0" GridPane.columnIndex="2" GridPane.rowIndex="6" />
-            <TextField fx:id="cell63" layoutX="142.0" layoutY="234.0" prefHeight="55.0" prefWidth="56.0" GridPane.columnIndex="3" GridPane.rowIndex="6" />
-            <TextField fx:id="cell64" layoutX="186.0" layoutY="234.0" prefHeight="55.0" prefWidth="56.0" GridPane.columnIndex="4" GridPane.rowIndex="6" />
-            <TextField fx:id="cell65" layoutX="230.0" layoutY="234.0" prefHeight="55.0" prefWidth="56.0" GridPane.columnIndex="5" GridPane.rowIndex="6" />
-            <TextField fx:id="cell66" layoutX="275.0" layoutY="234.0" prefHeight="55.0" prefWidth="56.0" GridPane.columnIndex="6" GridPane.rowIndex="6" />
-            <TextField fx:id="cell67" layoutX="320.0" layoutY="234.0" prefHeight="55.0" prefWidth="56.0" GridPane.columnIndex="7" GridPane.rowIndex="6" />
-            <TextField fx:id="cell68" layoutX="365.0" layoutY="234.0" prefHeight="55.0" prefWidth="56.0" GridPane.columnIndex="8" GridPane.rowIndex="6" />
-            <TextField fx:id="cell70" layoutX="10.0" layoutY="278.0" prefHeight="55.0" prefWidth="56.0" GridPane.rowIndex="7" />
-            <TextField fx:id="cell71" layoutX="54.0" layoutY="278.0" prefHeight="55.0" prefWidth="56.0" GridPane.columnIndex="1" GridPane.rowIndex="7" />
-            <TextField fx:id="cell72" layoutX="98.0" layoutY="278.0" prefHeight="55.0" prefWidth="56.0" GridPane.columnIndex="2" GridPane.rowIndex="7" />
-            <TextField fx:id="cell73" layoutX="142.0" layoutY="278.0" prefHeight="55.0" prefWidth="56.0" GridPane.columnIndex="3" GridPane.rowIndex="7" />
-            <TextField fx:id="cell74" layoutX="186.0" layoutY="278.0" prefHeight="55.0" prefWidth="56.0" GridPane.columnIndex="4" GridPane.rowIndex="7" />
-            <TextField fx:id="cell75" layoutX="230.0" layoutY="278.0" prefHeight="55.0" prefWidth="56.0" GridPane.columnIndex="5" GridPane.rowIndex="7" />
-            <TextField fx:id="cell76" layoutX="275.0" layoutY="278.0" prefHeight="55.0" prefWidth="56.0" GridPane.columnIndex="6" GridPane.rowIndex="7" />
-            <TextField fx:id="cell77" layoutX="320.0" layoutY="278.0" prefHeight="55.0" prefWidth="56.0" GridPane.columnIndex="7" GridPane.rowIndex="7" />
-            <TextField fx:id="cell78" layoutX="365.0" layoutY="278.0" prefHeight="55.0" prefWidth="56.0" GridPane.columnIndex="8" GridPane.rowIndex="7" />
-            <TextField fx:id="cell80" layoutX="10.0" layoutY="322.0" prefHeight="55.0" prefWidth="56.0" GridPane.rowIndex="8" />
-            <TextField fx:id="cell81" layoutX="54.0" layoutY="322.0" prefHeight="55.0" prefWidth="56.0" GridPane.columnIndex="1" GridPane.rowIndex="8" />
-            <TextField fx:id="cell82" layoutX="98.0" layoutY="322.0" prefHeight="55.0" prefWidth="56.0" GridPane.columnIndex="2" GridPane.rowIndex="8" />
-            <TextField fx:id="cell83" layoutX="142.0" layoutY="322.0" prefHeight="55.0" prefWidth="56.0" GridPane.columnIndex="3" GridPane.rowIndex="8" />
-            <TextField fx:id="cell84" layoutX="186.0" layoutY="322.0" prefHeight="55.0" prefWidth="56.0" GridPane.columnIndex="4" GridPane.rowIndex="8" />
-            <TextField fx:id="cell85" layoutX="230.0" layoutY="322.0" prefHeight="55.0" prefWidth="56.0" GridPane.columnIndex="5" GridPane.rowIndex="8" />
-            <TextField fx:id="cell86" layoutX="275.0" layoutY="322.0" prefHeight="55.0" prefWidth="56.0" GridPane.columnIndex="6" GridPane.rowIndex="8" />
-            <TextField fx:id="cell87" layoutX="320.0" layoutY="322.0" prefHeight="55.0" prefWidth="56.0" GridPane.columnIndex="7" GridPane.rowIndex="8" />
-            <TextField fx:id="cell88" layoutX="365.0" layoutY="322.0" prefHeight="55.0" prefWidth="56.0" GridPane.columnIndex="8" GridPane.rowIndex="8" />
+            <TextField fx:id="cell00" prefHeight="55.0" prefWidth="56.0" style="-fx-background-color: #C091EF; -fx-border-style: solid; -fx-alignment: center;">
+               <font>
+                  <Font size="20.0" />
+               </font></TextField>
+            <TextField fx:id="cell01" layoutX="10.0" layoutY="10.0" prefHeight="55.0" prefWidth="56.0" style="-fx-background-color: #C091EF; -fx-border-style: solid; -fx-alignment: center;" GridPane.columnIndex="1">
+               <font>
+                  <Font size="20.0" />
+               </font></TextField>
+            <TextField fx:id="cell02" layoutX="54.0" layoutY="10.0" prefHeight="55.0" prefWidth="56.0" style="-fx-background-color: #C091EF; -fx-border-style: solid; -fx-alignment: center;" GridPane.columnIndex="2">
+               <font>
+                  <Font size="20.0" />
+               </font></TextField>
+            <TextField fx:id="cell03" layoutX="98.0" layoutY="10.0" prefHeight="55.0" prefWidth="56.0" style="-fx-background-color: #00E353; -fx-border-style: solid; -fx-alignment: center;" GridPane.columnIndex="3">
+               <font>
+                  <Font size="20.0" />
+               </font></TextField>
+            <TextField fx:id="cell04" layoutX="142.0" layoutY="10.0" prefHeight="55.0" prefWidth="56.0" style="-fx-background-color: #00E353; -fx-border-style: solid; -fx-alignment: center;" GridPane.columnIndex="4">
+               <font>
+                  <Font size="20.0" />
+               </font></TextField>
+            <TextField fx:id="cell05" layoutX="10.0" layoutY="10.0" prefHeight="55.0" prefWidth="56.0" style="-fx-background-color: #00E353; -fx-border-style: solid; -fx-alignment: center;" GridPane.columnIndex="5">
+               <font>
+                  <Font size="20.0" />
+               </font></TextField>
+            <TextField fx:id="cell06" layoutX="230.0" layoutY="10.0" prefHeight="55.0" prefWidth="56.0" style="-fx-background-color: #C091EF; -fx-border-style: solid; -fx-alignment: center;" GridPane.columnIndex="6">
+               <font>
+                  <Font size="20.0" />
+               </font></TextField>
+            <TextField fx:id="cell07" layoutX="275.0" layoutY="10.0" prefHeight="55.0" prefWidth="56.0" style="-fx-background-color: #C091EF; -fx-border-style: solid; -fx-alignment: center;" GridPane.columnIndex="7">
+               <font>
+                  <Font size="20.0" />
+               </font></TextField>
+            <TextField fx:id="cell08" layoutX="320.0" layoutY="10.0" prefHeight="55.0" prefWidth="56.0" style="-fx-background-color: #C091EF; -fx-border-style: solid; -fx-alignment: center;" GridPane.columnIndex="8">
+               <font>
+                  <Font size="20.0" />
+               </font></TextField>
+            <TextField fx:id="cell10" layoutX="10.0" layoutY="10.0" prefHeight="55.0" prefWidth="56.0" style="-fx-background-color: #C091EF; -fx-border-style: solid; -fx-alignment: center;" GridPane.rowIndex="1">
+               <font>
+                  <Font size="20.0" />
+               </font></TextField>
+            <TextField fx:id="cell11" layoutX="10.0" layoutY="55.0" prefHeight="55.0" prefWidth="56.0" style="-fx-background-color: #C091EF; -fx-border-style: solid; -fx-alignment: center;" GridPane.columnIndex="1" GridPane.rowIndex="1">
+               <font>
+                  <Font size="20.0" />
+               </font></TextField>
+            <TextField fx:id="cell12" layoutX="54.0" layoutY="55.0" prefHeight="55.0" prefWidth="56.0" style="-fx-background-color: #C091EF; -fx-border-style: solid; -fx-alignment: center;" GridPane.columnIndex="2" GridPane.rowIndex="1">
+               <font>
+                  <Font size="20.0" />
+               </font></TextField>
+            <TextField fx:id="cell13" layoutX="10.0" layoutY="10.0" prefHeight="55.0" prefWidth="56.0" style="-fx-background-color: #00E353; -fx-border-style: solid; -fx-alignment: center;" GridPane.columnIndex="3" GridPane.rowIndex="1">
+               <font>
+                  <Font size="20.0" />
+               </font></TextField>
+            <TextField fx:id="cell14" layoutX="98.0" layoutY="55.0" prefHeight="55.0" prefWidth="56.0" style="-fx-background-color: #00E353; -fx-border-style: solid; -fx-alignment: center;" GridPane.columnIndex="4" GridPane.rowIndex="1">
+               <font>
+                  <Font size="20.0" />
+               </font></TextField>
+            <TextField fx:id="cell15" layoutX="10.0" layoutY="10.0" prefHeight="55.0" prefWidth="56.0" style="-fx-background-color: #00E353; -fx-border-style: solid; -fx-alignment: center;" GridPane.columnIndex="5" GridPane.rowIndex="1">
+               <font>
+                  <Font size="20.0" />
+               </font></TextField>
+            <TextField fx:id="cell16" layoutX="10.0" layoutY="10.0" prefHeight="55.0" prefWidth="56.0" style="-fx-background-color: #C091EF; -fx-border-style: solid; -fx-alignment: center;" GridPane.columnIndex="6" GridPane.rowIndex="1">
+               <font>
+                  <Font size="20.0" />
+               </font></TextField>
+            <TextField fx:id="cell17" layoutX="10.0" layoutY="10.0" prefHeight="55.0" prefWidth="56.0" style="-fx-background-color: #C091EF; -fx-border-style: solid; -fx-alignment: center;" GridPane.columnIndex="7" GridPane.rowIndex="1">
+               <font>
+                  <Font size="20.0" />
+               </font></TextField>
+            <TextField fx:id="cell18" layoutX="10.0" layoutY="10.0" prefHeight="55.0" prefWidth="56.0" style="-fx-background-color: #C091EF; -fx-border-style: solid; -fx-alignment: center;" GridPane.columnIndex="8" GridPane.rowIndex="1">
+               <font>
+                  <Font size="20.0" />
+               </font></TextField>
+            <TextField fx:id="cell20" layoutX="365.0" layoutY="55.0" prefHeight="55.0" prefWidth="56.0" style="-fx-background-color: #C091EF; -fx-border-style: solid; -fx-alignment: center;" GridPane.rowIndex="2">
+               <font>
+                  <Font size="20.0" />
+               </font></TextField>
+            <TextField fx:id="cell21" layoutX="230.0" layoutY="55.0" prefHeight="55.0" prefWidth="56.0" style="-fx-background-color: #C091EF; -fx-border-style: solid; -fx-alignment: center;" GridPane.columnIndex="1" GridPane.rowIndex="2">
+               <font>
+                  <Font size="20.0" />
+               </font></TextField>
+            <TextField fx:id="cell22" layoutX="275.0" layoutY="55.0" prefHeight="55.0" prefWidth="56.0" style="-fx-background-color: #C091EF; -fx-border-style: solid; -fx-alignment: center;" GridPane.columnIndex="2" GridPane.rowIndex="2">
+               <font>
+                  <Font size="20.0" />
+               </font></TextField>
+            <TextField fx:id="cell23" layoutX="320.0" layoutY="55.0" prefHeight="55.0" prefWidth="56.0" style="-fx-background-color: #00E353; -fx-border-style: solid; -fx-alignment: center;" GridPane.columnIndex="3" GridPane.rowIndex="2">
+               <font>
+                  <Font size="20.0" />
+               </font></TextField>
+            <TextField fx:id="cell24" layoutX="142.0" layoutY="55.0" prefHeight="55.0" prefWidth="56.0" style="-fx-background-color: #00E353; -fx-border-style: solid; -fx-alignment: center;" GridPane.columnIndex="4" GridPane.rowIndex="2">
+               <font>
+                  <Font size="20.0" />
+               </font></TextField>
+            <TextField fx:id="cell25" layoutX="186.0" layoutY="55.0" prefHeight="55.0" prefWidth="56.0" style="-fx-background-color: #00E353; -fx-border-style: solid; -fx-alignment: center;" GridPane.columnIndex="5" GridPane.rowIndex="2">
+               <font>
+                  <Font size="20.0" />
+               </font></TextField>
+            <TextField fx:id="cell26" layoutX="98.0" layoutY="55.0" prefHeight="55.0" prefWidth="56.0" style="-fx-background-color: #C091EF; -fx-border-style: solid; -fx-alignment: center;" GridPane.columnIndex="6" GridPane.rowIndex="2">
+               <font>
+                  <Font size="20.0" />
+               </font></TextField>
+            <TextField fx:id="cell27" layoutX="54.0" layoutY="55.0" prefHeight="55.0" prefWidth="56.0" style="-fx-background-color: #C091EF; -fx-border-style: solid; -fx-alignment: center;" GridPane.columnIndex="7" GridPane.rowIndex="2">
+               <font>
+                  <Font size="20.0" />
+               </font></TextField>
+            <TextField fx:id="cell28" layoutX="10.0" layoutY="55.0" prefHeight="55.0" prefWidth="56.0" style="-fx-background-color: #C091EF; -fx-border-style: solid; -fx-alignment: center;" GridPane.columnIndex="8" GridPane.rowIndex="2">
+               <font>
+                  <Font size="20.0" />
+               </font></TextField>
+            <TextField fx:id="cell30" layoutX="10.0" layoutY="100.0" prefHeight="55.0" prefWidth="56.0" style="-fx-background-color: #00E353; -fx-border-style: solid; -fx-alignment: center;" GridPane.rowIndex="3">
+               <font>
+                  <Font size="20.0" />
+               </font></TextField>
+            <TextField fx:id="cell31" layoutX="54.0" layoutY="100.0" prefHeight="55.0" prefWidth="56.0" style="-fx-background-color: #00E353; -fx-border-style: solid; -fx-alignment: center;" GridPane.columnIndex="1" GridPane.rowIndex="3">
+               <font>
+                  <Font size="20.0" />
+               </font></TextField>
+            <TextField fx:id="cell32" layoutX="98.0" layoutY="100.0" prefHeight="55.0" prefWidth="56.0" style="-fx-background-color: #00E353; -fx-border-style: solid; -fx-alignment: center;" GridPane.columnIndex="2" GridPane.rowIndex="3">
+               <font>
+                  <Font size="20.0" />
+               </font></TextField>
+            <TextField fx:id="cell33" layoutX="142.0" layoutY="100.0" prefHeight="55.0" prefWidth="56.0" style="-fx-background-color: #C091EF; -fx-border-style: solid; -fx-alignment: center;" GridPane.columnIndex="3" GridPane.rowIndex="3">
+               <font>
+                  <Font size="20.0" />
+               </font></TextField>
+            <TextField fx:id="cell34" layoutX="186.0" layoutY="100.0" prefHeight="55.0" prefWidth="56.0" style="-fx-background-color: #C091EF; -fx-border-style: solid; -fx-alignment: center;" GridPane.columnIndex="4" GridPane.rowIndex="3">
+               <font>
+                  <Font size="20.0" />
+               </font></TextField>
+            <TextField fx:id="cell35" layoutX="230.0" layoutY="100.0" prefHeight="55.0" prefWidth="56.0" style="-fx-background-color: #C091EF; -fx-border-style: solid; -fx-alignment: center;" GridPane.columnIndex="5" GridPane.rowIndex="3">
+               <font>
+                  <Font size="20.0" />
+               </font></TextField>
+            <TextField fx:id="cell36" layoutX="275.0" layoutY="100.0" prefHeight="55.0" prefWidth="56.0" style="-fx-background-color: #00E353; -fx-border-style: solid; -fx-alignment: center;" GridPane.columnIndex="6" GridPane.rowIndex="3">
+               <font>
+                  <Font size="20.0" />
+               </font></TextField>
+            <TextField fx:id="cell37" layoutX="320.0" layoutY="100.0" prefHeight="55.0" prefWidth="56.0" style="-fx-background-color: #00E353; -fx-border-style: solid; -fx-alignment: center;" GridPane.columnIndex="7" GridPane.rowIndex="3">
+               <font>
+                  <Font size="20.0" />
+               </font></TextField>
+            <TextField fx:id="cell38" layoutX="365.0" layoutY="100.0" prefHeight="55.0" prefWidth="56.0" style="-fx-background-color: #00E353; -fx-border-style: solid; -fx-alignment: center;" GridPane.columnIndex="8" GridPane.rowIndex="3">
+               <font>
+                  <Font size="20.0" />
+               </font></TextField>
+            <TextField fx:id="cell40" layoutX="10.0" layoutY="145.0" prefHeight="55.0" prefWidth="56.0" style="-fx-background-color: #00E353; -fx-border-style: solid; -fx-alignment: center;" GridPane.rowIndex="4">
+               <font>
+                  <Font size="20.0" />
+               </font></TextField>
+            <TextField fx:id="cell41" layoutX="54.0" layoutY="145.0" prefHeight="55.0" prefWidth="56.0" style="-fx-background-color: #00E353; -fx-border-style: solid; -fx-alignment: center;" GridPane.columnIndex="1" GridPane.rowIndex="4">
+               <font>
+                  <Font size="20.0" />
+               </font></TextField>
+            <TextField fx:id="cell42" layoutX="98.0" layoutY="145.0" prefHeight="55.0" prefWidth="56.0" style="-fx-background-color: #00E353; -fx-border-style: solid; -fx-alignment: center;" GridPane.columnIndex="2" GridPane.rowIndex="4">
+               <font>
+                  <Font size="20.0" />
+               </font></TextField>
+            <TextField fx:id="cell43" layoutX="142.0" layoutY="145.0" prefHeight="55.0" prefWidth="56.0" style="-fx-background-color: #C091EF; -fx-border-style: solid; -fx-alignment: center;" GridPane.columnIndex="3" GridPane.rowIndex="4">
+               <font>
+                  <Font size="20.0" />
+               </font></TextField>
+            <TextField fx:id="cell44" layoutX="186.0" layoutY="145.0" prefHeight="55.0" prefWidth="56.0" style="-fx-background-color: #C091EF; -fx-border-style: solid; -fx-alignment: center;" GridPane.columnIndex="4" GridPane.rowIndex="4">
+               <font>
+                  <Font size="20.0" />
+               </font></TextField>
+            <TextField fx:id="cell45" layoutX="230.0" layoutY="145.0" prefHeight="55.0" prefWidth="56.0" style="-fx-background-color: #C091EF; -fx-border-style: solid; -fx-alignment: center;" GridPane.columnIndex="5" GridPane.rowIndex="4">
+               <font>
+                  <Font size="20.0" />
+               </font></TextField>
+            <TextField fx:id="cell46" layoutX="275.0" layoutY="145.0" prefHeight="55.0" prefWidth="56.0" style="-fx-background-color: #00E353; -fx-border-style: solid; -fx-alignment: center;" GridPane.columnIndex="6" GridPane.rowIndex="4">
+               <font>
+                  <Font size="20.0" />
+               </font></TextField>
+            <TextField fx:id="cell47" layoutX="320.0" layoutY="145.0" prefHeight="55.0" prefWidth="56.0" style="-fx-background-color: #00E353; -fx-border-style: solid; -fx-alignment: center;" GridPane.columnIndex="7" GridPane.rowIndex="4">
+               <font>
+                  <Font size="20.0" />
+               </font></TextField>
+            <TextField fx:id="cell48" layoutX="365.0" layoutY="145.0" prefHeight="55.0" prefWidth="56.0" style="-fx-background-color: #00E353; -fx-border-style: solid; -fx-alignment: center;" GridPane.columnIndex="8" GridPane.rowIndex="4">
+               <font>
+                  <Font size="20.0" />
+               </font></TextField>
+            <TextField fx:id="cell50" layoutX="10.0" layoutY="190.0" prefHeight="55.0" prefWidth="56.0" style="-fx-background-color: #00E353; -fx-border-style: solid; -fx-alignment: center;" GridPane.rowIndex="5">
+               <font>
+                  <Font size="20.0" />
+               </font></TextField>
+            <TextField fx:id="cell51" layoutX="54.0" layoutY="190.0" prefHeight="55.0" prefWidth="56.0" style="-fx-background-color: #00E353; -fx-border-style: solid; -fx-alignment: center;" GridPane.columnIndex="1" GridPane.rowIndex="5">
+               <font>
+                  <Font size="20.0" />
+               </font></TextField>
+            <TextField fx:id="cell52" layoutX="98.0" layoutY="190.0" prefHeight="55.0" prefWidth="56.0" style="-fx-background-color: #00E353; -fx-border-style: solid; -fx-alignment: center;" GridPane.columnIndex="2" GridPane.rowIndex="5">
+               <font>
+                  <Font size="20.0" />
+               </font></TextField>
+            <TextField fx:id="cell53" layoutX="142.0" layoutY="190.0" prefHeight="55.0" prefWidth="56.0" style="-fx-background-color: #C091EF; -fx-border-style: solid; -fx-alignment: center;" GridPane.columnIndex="3" GridPane.rowIndex="5">
+               <font>
+                  <Font size="20.0" />
+               </font></TextField>
+            <TextField fx:id="cell54" layoutX="186.0" layoutY="190.0" prefHeight="55.0" prefWidth="56.0" style="-fx-background-color: #C091EF; -fx-border-style: solid; -fx-alignment: center;" GridPane.columnIndex="4" GridPane.rowIndex="5">
+               <font>
+                  <Font size="20.0" />
+               </font></TextField>
+            <TextField fx:id="cell55" layoutX="230.0" layoutY="190.0" prefHeight="55.0" prefWidth="56.0" style="-fx-background-color: #C091EF; -fx-border-style: solid; -fx-alignment: center;" GridPane.columnIndex="5" GridPane.rowIndex="5">
+               <font>
+                  <Font size="20.0" />
+               </font></TextField>
+            <TextField fx:id="cell56" layoutX="275.0" layoutY="190.0" prefHeight="55.0" prefWidth="56.0" style="-fx-background-color: #00E353; -fx-border-style: solid; -fx-alignment: center;" GridPane.columnIndex="6" GridPane.rowIndex="5">
+               <font>
+                  <Font size="20.0" />
+               </font></TextField>
+            <TextField fx:id="cell57" layoutX="320.0" layoutY="190.0" prefHeight="55.0" prefWidth="56.0" style="-fx-background-color: #00E353; -fx-border-style: solid; -fx-alignment: center;" GridPane.columnIndex="7" GridPane.rowIndex="5">
+               <font>
+                  <Font size="20.0" />
+               </font></TextField>
+            <TextField fx:id="cell58" layoutX="365.0" layoutY="190.0" prefHeight="55.0" prefWidth="56.0" style="-fx-background-color: #00E353; -fx-border-style: solid; -fx-alignment: center;" GridPane.columnIndex="8" GridPane.rowIndex="5">
+               <font>
+                  <Font size="20.0" />
+               </font></TextField>
+            <TextField fx:id="cell60" layoutX="10.0" layoutY="234.0" prefHeight="55.0" prefWidth="56.0" style="-fx-background-color: #C091EF; -fx-border-style: solid; -fx-alignment: center;" GridPane.rowIndex="6">
+               <font>
+                  <Font size="20.0" />
+               </font></TextField>
+            <TextField fx:id="cell61" layoutX="54.0" layoutY="234.0" prefHeight="55.0" prefWidth="56.0" style="-fx-background-color: #C091EF; -fx-border-style: solid; -fx-alignment: center;" GridPane.columnIndex="1" GridPane.rowIndex="6">
+               <font>
+                  <Font size="20.0" />
+               </font></TextField>
+            <TextField fx:id="cell62" layoutX="98.0" layoutY="234.0" prefHeight="55.0" prefWidth="56.0" style="-fx-background-color: #C091EF; -fx-border-style: solid; -fx-alignment: center;" GridPane.columnIndex="2" GridPane.rowIndex="6">
+               <font>
+                  <Font size="20.0" />
+               </font></TextField>
+            <TextField fx:id="cell63" layoutX="142.0" layoutY="234.0" prefHeight="55.0" prefWidth="56.0" style="-fx-background-color: #00E353; -fx-border-style: solid; -fx-alignment: center;" GridPane.columnIndex="3" GridPane.rowIndex="6">
+               <font>
+                  <Font size="20.0" />
+               </font></TextField>
+            <TextField fx:id="cell64" layoutX="186.0" layoutY="234.0" prefHeight="55.0" prefWidth="56.0" style="-fx-background-color: #00E353; -fx-border-style: solid; -fx-alignment: center;" GridPane.columnIndex="4" GridPane.rowIndex="6">
+               <font>
+                  <Font size="20.0" />
+               </font></TextField>
+            <TextField fx:id="cell65" layoutX="230.0" layoutY="234.0" prefHeight="55.0" prefWidth="56.0" style="-fx-background-color: #00E353; -fx-border-style: solid; -fx-alignment: center;" GridPane.columnIndex="5" GridPane.rowIndex="6">
+               <font>
+                  <Font size="20.0" />
+               </font></TextField>
+            <TextField fx:id="cell66" layoutX="275.0" layoutY="234.0" prefHeight="55.0" prefWidth="56.0" style="-fx-background-color: #C091EF; -fx-border-style: solid; -fx-alignment: center;" GridPane.columnIndex="6" GridPane.rowIndex="6">
+               <font>
+                  <Font size="20.0" />
+               </font></TextField>
+            <TextField fx:id="cell67" layoutX="320.0" layoutY="234.0" prefHeight="55.0" prefWidth="56.0" style="-fx-background-color: #C091EF; -fx-border-style: solid; -fx-alignment: center;" GridPane.columnIndex="7" GridPane.rowIndex="6">
+               <font>
+                  <Font size="20.0" />
+               </font></TextField>
+            <TextField fx:id="cell68" layoutX="365.0" layoutY="234.0" prefHeight="55.0" prefWidth="56.0" style="-fx-background-color: #C091EF; -fx-border-style: solid; -fx-alignment: center;" GridPane.columnIndex="8" GridPane.rowIndex="6">
+               <font>
+                  <Font size="20.0" />
+               </font></TextField>
+            <TextField fx:id="cell70" layoutX="10.0" layoutY="278.0" prefHeight="55.0" prefWidth="56.0" style="-fx-background-color: #C091EF; -fx-border-style: solid; -fx-alignment: center;" GridPane.rowIndex="7">
+               <font>
+                  <Font size="20.0" />
+               </font></TextField>
+            <TextField fx:id="cell71" layoutX="54.0" layoutY="278.0" prefHeight="55.0" prefWidth="56.0" style="-fx-background-color: #C091EF; -fx-border-style: solid; -fx-alignment: center;" GridPane.columnIndex="1" GridPane.rowIndex="7">
+               <font>
+                  <Font size="20.0" />
+               </font></TextField>
+            <TextField fx:id="cell72" layoutX="98.0" layoutY="278.0" prefHeight="55.0" prefWidth="56.0" style="-fx-background-color: #C091EF; -fx-border-style: solid; -fx-alignment: center;" GridPane.columnIndex="2" GridPane.rowIndex="7">
+               <font>
+                  <Font size="20.0" />
+               </font></TextField>
+            <TextField fx:id="cell73" layoutX="142.0" layoutY="278.0" prefHeight="55.0" prefWidth="56.0" style="-fx-background-color: #00E353; -fx-border-style: solid; -fx-alignment: center;" GridPane.columnIndex="3" GridPane.rowIndex="7">
+               <font>
+                  <Font size="20.0" />
+               </font></TextField>
+            <TextField fx:id="cell74" layoutX="186.0" layoutY="278.0" prefHeight="55.0" prefWidth="56.0" style="-fx-background-color: #00E353; -fx-border-style: solid; -fx-alignment: center;" GridPane.columnIndex="4" GridPane.rowIndex="7">
+               <font>
+                  <Font size="20.0" />
+               </font></TextField>
+            <TextField fx:id="cell75" layoutX="230.0" layoutY="278.0" prefHeight="55.0" prefWidth="56.0" style="-fx-background-color: #00E353; -fx-border-style: solid; -fx-alignment: center;" GridPane.columnIndex="5" GridPane.rowIndex="7">
+               <font>
+                  <Font size="20.0" />
+               </font></TextField>
+            <TextField fx:id="cell76" layoutX="275.0" layoutY="278.0" prefHeight="55.0" prefWidth="56.0" style="-fx-background-color: #C091EF; -fx-border-style: solid; -fx-alignment: center;" GridPane.columnIndex="6" GridPane.rowIndex="7">
+               <font>
+                  <Font size="20.0" />
+               </font></TextField>
+            <TextField fx:id="cell77" layoutX="320.0" layoutY="278.0" prefHeight="55.0" prefWidth="56.0" style="-fx-background-color: #C091EF; -fx-border-style: solid; -fx-alignment: center;" GridPane.columnIndex="7" GridPane.rowIndex="7">
+               <font>
+                  <Font size="20.0" />
+               </font></TextField>
+            <TextField fx:id="cell78" layoutX="365.0" layoutY="278.0" prefHeight="55.0" prefWidth="56.0" style="-fx-background-color: #C091EF; -fx-border-style: solid; -fx-alignment: center;" GridPane.columnIndex="8" GridPane.rowIndex="7">
+               <font>
+                  <Font size="20.0" />
+               </font></TextField>
+            <TextField fx:id="cell80" layoutX="10.0" layoutY="322.0" prefHeight="55.0" prefWidth="56.0" style="-fx-background-color: #C091EF; -fx-border-style: solid; -fx-alignment: center;" GridPane.rowIndex="8">
+               <font>
+                  <Font size="20.0" />
+               </font></TextField>
+            <TextField fx:id="cell81" layoutX="54.0" layoutY="322.0" prefHeight="55.0" prefWidth="56.0" style="-fx-background-color: #C091EF; -fx-border-style: solid; -fx-alignment: center;" GridPane.columnIndex="1" GridPane.rowIndex="8">
+               <font>
+                  <Font size="20.0" />
+               </font></TextField>
+            <TextField fx:id="cell82" layoutX="98.0" layoutY="322.0" prefHeight="55.0" prefWidth="56.0" style="-fx-background-color: #C091EF; -fx-border-style: solid; -fx-alignment: center;" GridPane.columnIndex="2" GridPane.rowIndex="8">
+               <font>
+                  <Font size="20.0" />
+               </font></TextField>
+            <TextField fx:id="cell83" layoutX="142.0" layoutY="322.0" prefHeight="55.0" prefWidth="56.0" style="-fx-background-color: #00E353; -fx-border-style: solid; -fx-alignment: center;" GridPane.columnIndex="3" GridPane.rowIndex="8">
+               <font>
+                  <Font size="20.0" />
+               </font></TextField>
+            <TextField fx:id="cell84" layoutX="186.0" layoutY="322.0" prefHeight="55.0" prefWidth="56.0" style="-fx-background-color: #00E353; -fx-border-style: solid; -fx-alignment: center;" GridPane.columnIndex="4" GridPane.rowIndex="8">
+               <font>
+                  <Font size="20.0" />
+               </font></TextField>
+            <TextField fx:id="cell85" layoutX="230.0" layoutY="322.0" prefHeight="55.0" prefWidth="56.0" style="-fx-background-color: #00E353; -fx-border-style: solid; -fx-alignment: center;" GridPane.columnIndex="5" GridPane.rowIndex="8">
+               <font>
+                  <Font size="20.0" />
+               </font></TextField>
+            <TextField fx:id="cell86" layoutX="275.0" layoutY="322.0" prefHeight="55.0" prefWidth="56.0" style="-fx-background-color: #C091EF; -fx-border-style: solid; -fx-alignment: center;" GridPane.columnIndex="6" GridPane.rowIndex="8">
+               <font>
+                  <Font size="20.0" />
+               </font></TextField>
+            <TextField fx:id="cell87" layoutX="320.0" layoutY="322.0" prefHeight="55.0" prefWidth="56.0" style="-fx-background-color: #C091EF; -fx-border-style: solid; -fx-alignment: center;" GridPane.columnIndex="7" GridPane.rowIndex="8">
+               <font>
+                  <Font size="20.0" />
+               </font></TextField>
+            <TextField fx:id="cell88" layoutX="365.0" layoutY="322.0" prefHeight="55.0" prefWidth="56.0" style="-fx-background-color: #C091EF; -fx-border-style: solid; -fx-alignment: center;" GridPane.columnIndex="8" GridPane.rowIndex="8">
+               <font>
+                  <Font size="20.0" />
+               </font></TextField>
          </children>
       </GridPane>
-      <Button layoutX="480.0" layoutY="287.0" mnemonicParsing="false" onMouseClicked="#solve" text="Solve">
+      <Button layoutX="454.0" layoutY="163.0" mnemonicParsing="false" onMouseClicked="#solve" text="Solve">
          <font>
             <Font size="20.0" />
          </font></Button>
+      <Text fx:id="message" layoutX="430.0" layoutY="257.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="127.0">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <Button layoutX="455.0" layoutY="307.0" mnemonicParsing="false" onMouseClicked="#clear" text="Clear">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
    </children>
 </AnchorPane>
