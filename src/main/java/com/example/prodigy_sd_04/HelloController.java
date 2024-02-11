@@ -1,9 +1,9 @@
 package com.example.prodigy_sd_04;
 
 import javafx.fxml.FXML;
+import javafx.scene.control.Alert;
 import javafx.scene.control.TextField;
 import javafx.scene.input.MouseEvent;
-import javafx.scene.text.Text;
 
 import java.util.Objects;
 
@@ -251,9 +251,6 @@ public class HelloController {
 
     @FXML
     private TextField cell88;
-
-    @FXML
-    private Text message;
 
     @FXML
     void clear(MouseEvent event) {
@@ -759,8 +756,6 @@ public class HelloController {
 
         Solver solver = new Solver();
         if (solver.solveSudoku(grid, 9)){
-            message.setText("Solved");
-
             cell00.setText(String.valueOf(grid[0][0]));
             cell01.setText(String.valueOf(grid[0][1]));
             cell02.setText(String.valueOf(grid[0][2]));
@@ -850,9 +845,19 @@ public class HelloController {
             cell86.setText(String.valueOf(grid[8][6]));
             cell87.setText(String.valueOf(grid[8][7]));
             cell88.setText(String.valueOf(grid[8][8]));
+
+            showAlert("Solved", "The puzzle is solved");
         }
         else
-            message.setText("Unsolvable");
+            showAlert("Error", "This puzzle is unsolvable");
+    }
+
+    private void showAlert(String title, String message) {
+        Alert alert = new Alert(Alert.AlertType.INFORMATION);
+        alert.setTitle(title);
+        alert.setHeaderText(null);
+        alert.setContentText(message);
+        alert.showAndWait();
     }
 
 }
